@@ -13,9 +13,10 @@ npm install --save get-css-colors
 ## Usage
 
 ```javascript
-var getCssColors = require('get-css-colors');
+var getCssColors = require('get-css-colors')
 
-getCssColors();  // => true
+getCssColors('foobar hsl(,,) #fff turtles rebeccapurple')
+// => ['#fff', 'rebeccapurple']
 ```
 
 ## License
