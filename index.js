@@ -16,7 +16,12 @@ module.exports = function getCssColors(string) {
   var hslOrHslaRegex = hslRegex().source + '|' + hslaRegex().source
   var hexRegex = '#([a-f]|[A-F]|[0-9]){3}(([a-f]|[A-F]|[0-9]){3})?\\b'
 
-  var cssColorRegex = new RegExp(colorListRegex + '|' + rgbOrRgbaRegex + '|' + hslOrHslaRegex + '|' + hexRegex, 'ig')
+  var cssColorRegex = new RegExp(
+    colorListRegex + '|' +
+    rgbOrRgbaRegex + '|' +
+    hslOrHslaRegex + '|' +
+    hexRegex, 'ig'
+  )
 
   return string.match(cssColorRegex)
 }
