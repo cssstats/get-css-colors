@@ -14,15 +14,19 @@
     "type": "git",
     "url": "https://github.com/johnotander/get-css-colors.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/get-css-colors/issues"
   },
   "homepage": "https://github.com/johnotander/get-css-colors",
-  "dependencies": {},
+  "dependencies": {
+    "css-color-list": "0.0.1",
+    "hsl-regex": "^1.0.0",
+    "hsla-regex": "^1.0.0",
+    "rgb-regex": "^1.0.1",
+    "rgba-regex": "^1.0.0"
+  },
   "devDependencies": {
     "mocha": "*"
   }
