@@ -14,7 +14,18 @@
     "type": "git",
     "url": "https://github.com/johnotander/get-css-colors.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "color",
+    "colors",
+    "hsl",
+    "hsla",
+    "hex",
+    "rgb",
+    "rgba",
+    "named",
+    "system"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/get-css-colors/issues"
