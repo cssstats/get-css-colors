@@ -1,6 +1,6 @@
 # get-css-colors
 
-[![Build Status](https://secure.travis-ci.org/johnotander/get-css-colors.png?branch=master)](https://travis-ci.org/johnotander/get-css-colors)
+[![Build Status](https://secure.travis-ci.org/cssstats/get-css-colors.png?branch=master)](https://travis-ci.org/cssstats/get-css-colors)
 
 Get CSS colors from a string, including rgb, rgba, hsl, hsla, hex, named, etc.
 
