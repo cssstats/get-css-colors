@@ -1,8 +1,6 @@
-# get-css-colors
+# get-css-colors [![Build Status](https://secure.travis-ci.org/cssstats/get-css-colors.svg?branch=master)](https://travis-ci.org/cssstats/get-css-colors) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-[![Build Status](https://secure.travis-ci.org/cssstats/get-css-colors.png?branch=master)](https://travis-ci.org/cssstats/get-css-colors)
-
-Get CSS colors from a string, including rgb, rgba, hsl, hsla, hex, named, etc.
+Get css colors from a string, including rgb, rgba, hsl, hsla, hex, named, etc.
 
 ## Installation
 
@@ -13,7 +11,7 @@ npm install --save get-css-colors
 ## Usage
 
 ```javascript
-var getCssColors = require('get-css-colors')
+const getCssColors = require('get-css-colors')
 
 getCssColors('foobar hsl(,,) #fff turtles rebeccapurple')
 // => ['#fff', 'rebeccapurple']
